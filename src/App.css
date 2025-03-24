@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.circular-landscape{
+  display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.circular-landscape img{
+  width: auto;
+    height: 100%;
+    margin-left: -50%;
+}
+.placeholder-text{
+  font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+}
+.user-name{
+  font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+.font-dark{
+  color: #212529;
+}
+.skills{
+  font-size: 1.75rem;
+}
+h2{
+  font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.skills-heading{
+  font-weight:700;
+}
